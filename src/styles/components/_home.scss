@@ -1,0 +1,76 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.home {
+    height: 100vh;
+    background-color: $color-yellow;
+}
+
+.pkb {
+    margin-top: 2px;
+
+    .pokeball{
+    width: 200px;
+    height: 200px;
+    top: 50%;
+   @include position;
+}
+}
+
+
+
+
+
+.entrar {
+    @include position;
+    top: 70%;
+    width: 180px;
+    height: 70px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    background-color:$color-yellow;
+    transition: all 1s ease;
+   &:hover {
+    transition: all 1s ease;
+    background-color: $color-yellow;
+    box-shadow: 5px 5px 15px 2px #000000;
+    }
+
+}
+
+
+.entrar a {
+    color: black;
+    display: block;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight:bold;
+    letter-spacing: 3px;
+
+}
+
+
+.pikachu {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+    .pkimage {
+        width: 200px;
+        height: 200px;
+        margin-top: -500px;
+    }
+
+}
+
