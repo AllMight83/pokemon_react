@@ -21,14 +21,3 @@ const One = (props) => {
 
 export default One;
 
-{/* <section className="section">
-<div className="card">
-  <div className="namepok">{props.item.name}</div>
-  <div className="circle">
-    
-      <img src={props.item.sprites.front_default} className="poke" />
-  
-  </div>
-  <div className="ability">{props.item.order}</div>
-</div>
-</section> */}
